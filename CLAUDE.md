@@ -20,6 +20,41 @@ gta-cars/
 
 **Why no `cars.json` / no fetch?** Tried it, scrapped it. `fetch('cars.json')` is blocked under `file://` (CORS), which forced the user to run a local HTTP server just to see their own page. Loading via `<script src="cars.js">` puts the data in `window.CARS` synchronously — no server, no async, no cache. Don't reintroduce fetch unless the site moves behind a real HTTP host.
 
+## Deployment
+
+- **Live site:** https://gtacarspg.me (HTTPS via Let's Encrypt, auto-provisioned by GitHub Pages)
+- **Hosting:** GitHub Pages — repo `LukaMugosa/gta-cars`, branch `main`, source path `/` (root). Every push to `main` triggers a `pages build and deployment` GitHub Action; site is live within ~1 min.
+- **Repo:** https://github.com/LukaMugosa/gta-cars (public)
+- **GitHub Pages settings:** https://github.com/LukaMugosa/gta-cars/settings/pages
+- **Fallback URL:** `https://lukamugosa.github.io/gta-cars/` — also serves the same content; redirects to the apex.
+
+### Custom domain — DNS at Namecheap
+
+Domain `gtacarspg.me` is registered at Namecheap. Required Advanced DNS records:
+
+| Type  | Host  | Value                   |
+|-------|-------|-------------------------|
+| A     | `@`   | `185.199.108.153`       |
+| A     | `@`   | `185.199.109.153`       |
+| A     | `@`   | `185.199.110.153`       |
+| A     | `@`   | `185.199.111.153`       |
+| CNAME | `www` | `lukamugosa.github.io.` |
+
+Don't add a Namecheap "URL Redirect Record" — it injects a parking-page IP (`162.255.x.x`) into the apex A-record set, which causes ~20% of visitors to land on Namecheap's parking 404 instead of GitHub Pages.
+
+### `CNAME` file in the repo
+
+A `CNAME` file at the repo root contains the single line `gtacarspg.me`. **Don't delete it** — GitHub Pages reads this file to know which domain to serve. If it's missing, the custom domain breaks. If you change the domain, edit this file *and* update the Custom domain field in Pages settings.
+
+### Git auth on this machine
+
+Pushing requires HTTPS auth as `LukaMugosa`. Setup that's already in place:
+
+- Remote URL: `https://LukaMugosa@github.com/LukaMugosa/gta-cars.git` — the username is embedded so macOS Keychain returns the LukaMugosa-specific credential, not the `lukamugosa99` entry from a separate auth.
+- Per-repo git config: `user.name=LukaMugosa`, `user.email=lukamugosa1945@gmail.com`. Don't fall back to the global `luka@alchemy.cloud`.
+- Credential helper: `osxkeychain`. The PAT is cached in macOS Keychain. If a push prompts for credentials, the cached PAT was revoked — generate a fresh classic PAT (scope `repo`) at github.com/settings/tokens (signed in as **LukaMugosa**, not lukamugosa99), then on next push enter username `LukaMugosa` and the new PAT as password; Keychain stores it.
+- Don't run `gh` CLI in this folder — it's authed for a different account and would create commits/repos under the wrong identity. Use plain `git`.
+
 ## Data schema (`cars.js`)
 
 ```js
