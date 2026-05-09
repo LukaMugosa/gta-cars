@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude Code project-local config (not source code)
+.claude/
+
+# Editor cruft
+*.swp
+*~
+.idea/
+.vscode/
+
+# OS / temp
+Thumbs.db
+*.tmp
+
+# unwired car-image staging area (re-include when listing is added)
+images/cars/s5-look/
