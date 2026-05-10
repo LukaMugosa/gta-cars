@@ -14,6 +14,3 @@
 # OS / temp
 Thumbs.db
 *.tmp
-
-# unwired car-image staging area (re-include when listing is added)
-images/cars/s5-look/
