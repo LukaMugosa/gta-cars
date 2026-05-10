@@ -172,5 +172,186 @@ window.CARS = [
       "Sva 4 električna podizača",
       "Tempomat"
     ]
+  },
+  {
+    "id": 4,
+    "slug": "s5-look",
+    "name": "Audi A5 S line Sportback (S5 Look)",
+    "year": 2017,
+    "km": 77000,
+    "transmission": "Automatik",
+    "fuel": "Dizel",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/s5-look/1.jpg",
+    "images": [
+      "images/cars/s5-look/2.jpg",
+      "images/cars/s5-look/3.jpg"
+    ],
+    "description": "Audi A5 Sportback u S5 look paketu. 2.0 TDI 140 kW, godište 2017, kilometraža 77.000 km.",
+    "specs": {
+      "engine": "2.0 TDI",
+      "power": "190 KS / 140 kW",
+      "displacement": "1968 ccm",
+      "drive": "—",
+      "body": "Hatchback",
+      "color": "—",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": []
+  },
+  {
+    "id": 5,
+    "slug": "cayen",
+    "name": "Porsche Cayenne GTS Look",
+    "year": 2012,
+    "km": 177000,
+    "transmission": "Automatik",
+    "fuel": "Dizel",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/cayen/1.jpg",
+    "images": [
+      "images/cars/cayen/2.jpg",
+      "images/cars/cayen/3.jpg",
+      "images/cars/cayen/4.jpg"
+    ],
+    "description": "Porsche Cayenne u GTS look paketu. 3.0 TDI 180 kW, godište 2012, kilometraža 177.000 km.",
+    "specs": {
+      "engine": "3.0 TDI",
+      "power": "245 KS / 180 kW",
+      "displacement": "2967 ccm",
+      "drive": "AWD",
+      "body": "SUV",
+      "color": "—",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": []
+  },
+  {
+    "id": 6,
+    "slug": "7R",
+    "name": "VW Golf 7R 400",
+    "year": 2013,
+    "km": 190000,
+    "transmission": "Automatik",
+    "fuel": "Benzin",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/7R/1.jpg",
+    "images": [
+      "images/cars/7R/2.jpg",
+      "images/cars/7R/3.jpg",
+      "images/cars/7R/4.jpg",
+      "images/cars/7R/5.jpg",
+      "images/cars/7R/6.jpg"
+    ],
+    "description": "VW Golf 7R sa ~400 KS. 2.0 TSI 296 kW, godište 2013, kilometraža 190.000 km.",
+    "specs": {
+      "engine": "2.0 TSI",
+      "power": "400 KS / 296 kW",
+      "displacement": "1984 ccm",
+      "drive": "4Motion (AWD)",
+      "body": "Hatchback",
+      "color": "—",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": []
+  },
+  {
+    "id": 7,
+    "slug": "g30",
+    "name": "BMW G30 520d SportLine",
+    "year": 2017,
+    "km": 235000,
+    "transmission": "Automatik",
+    "fuel": "Dizel",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/g30/4.jpg",
+    "images": [
+      "images/cars/g30/1.jpg",
+      "images/cars/g30/2.jpg",
+      "images/cars/g30/3.jpg",
+      "images/cars/g30/5.jpg"
+    ],
+    "description": "BMW G30 520d SportLine. 2.0 dizel 140 kW, godište 2017, kilometraža 235.000 km.",
+    "specs": {
+      "engine": "2.0d",
+      "power": "190 KS / 140 kW",
+      "displacement": "1995 ccm",
+      "drive": "Zadnji (RWD)",
+      "body": "Limuzina",
+      "color": "—",
+      "doors": 4,
+      "seats": 5
+    },
+    "features": []
+  },
+  {
+    "id": 8,
+    "slug": "125d",
+    "name": "BMW 125d M Sport",
+    "year": 2014,
+    "km": 240000,
+    "transmission": "Automatik",
+    "fuel": "Dizel",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/125d/2.jpg",
+    "images": [
+      "images/cars/125d/1.jpg",
+      "images/cars/125d/3.jpg",
+      "images/cars/125d/4.jpg"
+    ],
+    "description": "BMW 125d M Sport, full M Sport paket. 2.0 TwinPowerTurbo 160 kW, godište 2014, kilometraža 240.000 km.",
+    "specs": {
+      "engine": "2.0 TwinPowerTurbo",
+      "power": "218 KS / 160 kW",
+      "displacement": "1995 ccm",
+      "drive": "Zadnji (RWD)",
+      "body": "Hatchback",
+      "color": "—",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": [
+      "Full M Sport paket"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "7GTD",
+    "name": "VW Golf 7.5 GTD",
+    "year": 2018,
+    "km": 168000,
+    "transmission": "Automatik",
+    "fuel": "Dizel",
+    "price": null,
+    "sold": true,
+    "headImage": "images/cars/7GTD/1.jpg",
+    "images": [
+      "images/cars/7GTD/2.jpg",
+      "images/cars/7GTD/3.jpg",
+      "images/cars/7GTD/4.jpg",
+      "images/cars/7GTD/5.jpg"
+    ],
+    "description": "VW Golf 7.5 GTD sa DSG mjenjačem. 2.0 TDI 135 kW, godište 2018, kilometraža 168.000 km.",
+    "specs": {
+      "engine": "2.0 TDI",
+      "power": "184 KS / 135 kW",
+      "displacement": "1968 ccm",
+      "drive": "Prednji (FWD)",
+      "body": "Hatchback",
+      "color": "—",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": [
+      "DSG mjenjač"
+    ]
   }
 ];
