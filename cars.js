@@ -119,6 +119,62 @@ window.CARS = [
     ]
   },
   {
+    "id": 10,
+    "slug": "renault-megane",
+    "name": "Renault Mégane 1.5 dCi",
+    "year": 2014,
+    "km": 231000,
+    "transmission": "Manuelni",
+    "fuel": "Dizel",
+    "price": 6700,
+    "sold": false,
+    "badge": "NOVO",
+    "headImage": "images/cars/renault-megane/1.jpg",
+    "images": [
+      "images/cars/renault-megane/2.jpg",
+      "images/cars/renault-megane/3.jpg",
+      "images/cars/renault-megane/4.jpg",
+      "images/cars/renault-megane/5.jpg",
+      "images/cars/renault-megane/6.jpg",
+      "images/cars/renault-megane/7.jpg",
+      "images/cars/renault-megane/8.jpg",
+      "images/cars/renault-megane/9.jpg",
+      "images/cars/renault-megane/10.jpg",
+      "images/cars/renault-megane/11.jpg",
+      "images/cars/renault-megane/12.jpg",
+      "images/cars/renault-megane/13.jpg",
+      "images/cars/renault-megane/14.jpg",
+      "images/cars/renault-megane/15.jpg",
+      "images/cars/renault-megane/16.jpg"
+    ],
+    "description": "Renault Mégane 1.5 dCi 70 kW, 6 brzina, godište 2014, kilometraža 231.000 km. Auto u odličnom stanju, izuzetno očuvan, visok stepen opreme. Tek odrađen servis, kupljen od prvog vlasnika, nove gume, 2 ključa. Ocarinjen, na ime kupca. Servisna istorija dostupna, garancija na kilometražu i godinu proizvodnje!",
+    "specs": {
+      "engine": "1.5 dCi",
+      "power": "95 KS / 70 kW",
+      "displacement": "1461 ccm",
+      "drive": "Prednji (FWD)",
+      "body": "Hatchback",
+      "color": "Perla bijela",
+      "doors": 5,
+      "seats": 5
+    },
+    "features": [
+      "Navigacija / multimedija",
+      "Bi-Xenon LED farovi",
+      "Parking senzori",
+      "Svjetla za maglu",
+      "Senzori za svjetla i kišu",
+      "ISOFIX sjedišta",
+      "Multifunkcionalni volan sa komandama",
+      "Električno sklapanje retrovizora",
+      "Digitalna (AC) klima",
+      "Originalne aluminijske felne",
+      "Grijanje stakala",
+      "Start/Stop sistem",
+      "Paljenje na dugme"
+    ]
+  },
+  {
     "id": 3,
     "slug": "ford-fiesta-titanium",
     "name": "Ford Fiesta Titanium",
@@ -352,61 +408,6 @@ window.CARS = [
     },
     "features": [
       "DSG mjenjač"
-    ]
-  },
-  {
-    "id": 10,
-    "slug": "renault-megane",
-    "name": "Renault Mégane 1.5 dCi",
-    "year": 2014,
-    "km": 231000,
-    "transmission": "Manuelni",
-    "fuel": "Dizel",
-    "price": 6700,
-    "sold": false,
-    "headImage": "images/cars/renault-megane/1.jpg",
-    "images": [
-      "images/cars/renault-megane/2.jpg",
-      "images/cars/renault-megane/3.jpg",
-      "images/cars/renault-megane/4.jpg",
-      "images/cars/renault-megane/5.jpg",
-      "images/cars/renault-megane/6.jpg",
-      "images/cars/renault-megane/7.jpg",
-      "images/cars/renault-megane/8.jpg",
-      "images/cars/renault-megane/9.jpg",
-      "images/cars/renault-megane/10.jpg",
-      "images/cars/renault-megane/11.jpg",
-      "images/cars/renault-megane/12.jpg",
-      "images/cars/renault-megane/13.jpg",
-      "images/cars/renault-megane/14.jpg",
-      "images/cars/renault-megane/15.jpg",
-      "images/cars/renault-megane/16.jpg"
-    ],
-    "description": "Renault Mégane 1.5 dCi 70 kW, 6 brzina, godište 2014, kilometraža 231.000 km. Auto u odličnom stanju, izuzetno očuvan, visok stepen opreme. Tek odrađen servis, kupljen od prvog vlasnika, nove gume, 2 ključa. Ocarinjen, na ime kupca. Servisna istorija dostupna, garancija na kilometražu i godinu proizvodnje!",
-    "specs": {
-      "engine": "1.5 dCi",
-      "power": "95 KS / 70 kW",
-      "displacement": "1461 ccm",
-      "drive": "Prednji (FWD)",
-      "body": "Hatchback",
-      "color": "Perla bijela",
-      "doors": 5,
-      "seats": 5
-    },
-    "features": [
-      "Navigacija / multimedija",
-      "Bi-Xenon LED farovi",
-      "Parking senzori",
-      "Svjetla za maglu",
-      "Senzori za svjetla i kišu",
-      "ISOFIX sjedišta",
-      "Multifunkcionalni volan sa komandama",
-      "Električno sklapanje retrovizora",
-      "Digitalna (AC) klima",
-      "Originalne aluminijske felne",
-      "Grijanje stakala",
-      "Start/Stop sistem",
-      "Paljenje na dugme"
     ]
   }
 ];
