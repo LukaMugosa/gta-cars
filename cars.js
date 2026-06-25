@@ -127,7 +127,7 @@ window.CARS = [
     "transmission": "Manuelni",
     "fuel": "Dizel",
     "price": 6700,
-    "sold": false,
+    "sold": true,
     "badge": "NOVO",
     "headImage": "images/cars/renault-megane/1.jpg",
     "images": [
