@@ -127,7 +127,7 @@ window.CARS = [
     "transmission": "Manuelni",
     "fuel": "Dizel",
     "price": 8900,
-    "sold": false,
+    "sold": true,
     "badge": "NOVO",
     "headImage": "images/cars/audi-a3-sportback/2.jpg",
     "images": [
@@ -237,7 +237,7 @@ window.CARS = [
     "transmission": "Manuelni",
     "fuel": "Dizel",
     "price": 5900,
-    "sold": false,
+    "sold": true,
     "headImage": "images/cars/ford-fiesta-titanium/1.jpg",
     "images": [
       "images/cars/ford-fiesta-titanium/2.jpg",
