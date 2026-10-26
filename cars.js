@@ -190,7 +190,7 @@ window.CARS = [
     "transmission": "Manuelni",
     "fuel": "Dizel",
     "price": 5600,
-    "sold": false,
+    "sold": true,
     "badge": "NOVO",
     "headImage": "images/cars/citroen-c3/1.jpg",
     "images": [
